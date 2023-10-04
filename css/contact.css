@@ -1,0 +1,24 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    overflow: hidden;
+}
+
+#title{
+    background-image: linear-gradient(rgba(240, 239, 239, 0),rgba(27, 27, 27, 0.308)),url(../images/background.jpg);
+    min-height: 95vh;
+    background-size: cover;
+    padding: 7% 14%;
+    text-align: center  ;
+}
+.brand-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+#success-message{
+    z-index: 9999;
+    background-color: transparent;
+    color: white;
+}
